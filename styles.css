@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Boon Antiqua', serif;
+    background-color: #f8f8f8; /* off-white background */
+    color: black;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #A3D8FF; /* light blue headings */
+    font-size: 3em;
+}
+
+h2 {
+    color: #A3D8FF; /* light blue subheadings */
+    font-size: 2em;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A3D8FF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0066cc; /* Darker blue on hover */
+}
+
+/* Main section */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#Intro {
+    justify-self: center;
+}
+#Intro img {
+    width: 500px;
+    border: #0066cc;
+    border-style: solid;
+    border-width: 10px;
+}
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+/* Poem styling */
+section p {
+    font-size: 1.5em;
+    line-height: 1.8;
+}
+
+.COVID{
+    padding: 25px;
+}
