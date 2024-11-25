@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: 'Boon Antiqua', serif;
-    background-color: #f8f8f8; /* off-white background */
+    background-color: #e9ece0; /* off-white background */
     color: black;
     padding: 20px;
 }
@@ -20,12 +20,12 @@ header {
 }
 
 h1 {
-    color: #A3D8FF; /* light blue headings */
+    color: #a34af1; /* light blue headings */
     font-size: 3em;
 }
 
 h2 {
-    color: #A3D8FF; /* light blue subheadings */
+    color: #4c26ae; /* light blue subheadings */
     font-size: 2em;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #A3D8FF;
+    color: #311aa3;
     font-weight: bold;
 }
 
@@ -62,9 +62,16 @@ main {
 }
 #Intro img {
     width: 500px;
-    border: #0066cc;
+    border: #9709a9;
     border-style: solid;
     border-width: 10px;
+}
+#ADHD img {
+    width: 500px;
+    border: #9709a9;
+    border-style: solid;
+    border-width: 10px;
+
 }
 /* Footer styling */
 footer {
