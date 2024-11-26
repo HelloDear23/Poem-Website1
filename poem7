@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharp Teeth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Boon+Antiqua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sharp Teeth</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Home</a></li>
+                <li><a href="poem6.html">Previous Poem</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p> I have a joy that is hungry.<br>
+                It gnaws at my chest cavity with malignant glee, <br>
+                Forcing deranged giggles from my throat. <br>
+                I feel my grin bare its ugly teeth.
+            </p>
+            <div class="COVID"> </div>
+            <p>
+                I try to hide this hunger. <br>
+                Tuck my pointed teeth under my lip, <br>
+                Making sure the right number of teeth show.
+            </p>
+            <div class="COVID"> </div>
+            <p>
+                Yet I know that the hunger will always show.<br>
+                It will be by the glint in my eye,<br>
+                A red tint that pierces like a knife. 
+            </p>
+            <div class="COVID"> </div>
+            <p>
+                The hunger is a part of me. <br>
+                I have starved so long for brightness, <br>
+                That it becomes dark when I finally grasp it. <br>
+                My joy is starving.  
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Em's Poetry Collection</p>
+    </footer>
+</body>
+</html>
