@@ -118,7 +118,7 @@
                     poemSection.appendChild(newParagraph); //We now add our constructed paragraph since we know it's completed since we've encountered an element from the next paragraph
                      
                     currParagraphNum = currElement.paragraph; //Update the current paragraph tracker
-                    
+
                     //Reset our varaibles so it creates new ones for later additions ,instead of moving the existing ones to new positions
                     newParagraph = doc.createElement("div"); //Reset our reusable newParagraph variable
                     spacer = doc.createElement("div") //Reset our spacer variable
@@ -143,7 +143,6 @@
 
 
     //Here we will call all of the functions we made above. By doing this, we are actually telling the file to run the functions.
-    // function1();
     function1();
     function2();
 
