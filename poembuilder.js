@@ -31,7 +31,7 @@
         var listItem1 = doc.createElement("li"); // Creating a li element 
         var buttonLink = doc.createElement("a"); // Creating the inner "a" element
         buttonLink.href = "index.html" // setting the href attribute to point to index.html
-        buttonLink.innerText = "Back to Home" // setting the inner text of the element to "Back to Home"
+        buttonLink.innerText = "Back to Home " // setting the inner text of the element to "Back to Home"
 
         //Building the button up compositionally(i.e. nesting peice by peice)
         listItem1.appendChild(buttonLink); // adding the "a" to the "li"
