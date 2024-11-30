@@ -70,6 +70,11 @@
                 // newParagraph.appendChild(breakLine); //Since we formatted our json so that each element is a line, we can safely add a breakline after appending each json[i].contnet
                 //This serves as an example of how you can format the way you save things in order to make your job easier when you are actually coding and working with the data.
                 oldNum = currParagraphNum;
+
+                if(i == json.length-1) {
+                    newParagraph.appendChild(spacer);
+                    poemSection.appendChild(newParagraph); 
+                }
             }
         })
 
