@@ -1,7 +1,7 @@
 
 
 (function(win, doc){
-    var poemSection = doc.getElementById("poem-section2");
+    var poemSection = doc.getElementById("haikus-section");
     
 
 
@@ -28,7 +28,7 @@
             There are a muiltitude of ways to do this process, so this is just one method.
         */
 
-        fetch('poems/poem2.json') //This uses the fetch function to get the json file
+        fetch('poems/haikus.json') //This uses the fetch function to get the json file
           .then((response) => response.json()) // This is not super intuitive, but it just turns the fetch repsonse into a json object we can use
           .then((json) => { //Here in this block is where we do all our work reading from the json file and populating the html element
 
