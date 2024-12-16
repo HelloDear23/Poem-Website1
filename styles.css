@@ -82,6 +82,11 @@ main {
 .hidden{
     display: none 
 }
+#clickbait { text-decoration: underline;
+} 
+#clickbait span {
+    text-decoration: underline;
+}
 /* Footer styling */
 footer {
     text-align: center;

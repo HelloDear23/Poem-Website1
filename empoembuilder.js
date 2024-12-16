@@ -45,6 +45,10 @@
             newParagraph = doc.createElement("div"); //A reusable element to
             newLine = doc.createElement("p");
 
+            var now= new Clickbait ();
+            doc.createElement("clickbait").innerHTML= "Clickbait <span>" + (now.getTitle()+1)+ "/"+ now.getClickbait() + "</span>";
+            
+
             for (var i = 0; i < json.length; i++) {// A loop to go through each element in the json file
 
 
